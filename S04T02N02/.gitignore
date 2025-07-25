@@ -1,0 +1,52 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# 📦 Maven
+log/
+logs/
+*.log
+
+# 🧪 Configuración y metadatos del sistema
+.DS_Store
+Thumbs.db
+
+# 🔒 Archivos ocultos comunes (excluyendo .gitignore)
+.env
+*.swp
+*.swo
+*.bak
+
+# ⛔ Excepciones explícitas
+!.gitignore
