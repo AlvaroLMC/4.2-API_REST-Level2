@@ -35,12 +35,12 @@ The `Fruit` entity has the following properties:
 
 ## Available Endpoints
 
-| Action                 | Method | URL                     | Description                    | JSON Body Example                              |
-|------------------------|--------|-------------------------|--------------------------------|-----------------------------------------------|
-| Create fruit           | POST   | `/fruit/add`            | Add a new fruit                | `{ "nom": "Apple", "quantitatQuilos": 25 }`  |
-| Update fruit           | PUT    | `/fruit/update`         | Modify an existing fruit       | `{ "id": 1, "nom": "Golden Apple", "quantitatQuilos": 30 }` |
-| Delete fruit           | DELETE | `/fruit/delete/{id}`    | Delete fruit by id             | N/A                                           |
-| Get fruit by id        | GET    | `/fruit/getOne/{id}`    | Get fruit by its id            | N/A                                           |
-| Get all fruits         | GET    | `/fruit/getAll`         | Get all fruits                 | N/A                                           |
+| Action                 | Method | URL                     | Description                    | JSON Body Example                                          |
+|------------------------|--------|-------------------------|--------------------------------|------------------------------------------------------------|
+| Create fruit           | POST   | `/fruit/add`            | Add a new fruit                | `{ "name": "Apple", "quantitatQuilos": 25 }`               |
+| Update fruit           | PUT    | `/fruit/update`         | Modify an existing fruit       | `{ "id": 1, "name": "Golden Apple", "quantityKilos": 30 }` |
+| Delete fruit           | DELETE | `/fruit/delete/{id}`    | Delete fruit by id             | N/A                                                        |
+| Get fruit by id        | GET    | `/fruit/getOne/{id}`    | Get fruit by its id            | N/A                                                        |
+| Get all fruits         | GET    | `/fruit/getAll`         | Get all fruits                 | N/A                                                        |
 
 ---
