@@ -2,7 +2,7 @@
 
 ## Description
 
-This project implements a basic CRUD for the **Fruit** entity using Spring Boot, Spring Data JPA, and the H2 in-memory database.
+This project implements a basic CRUD for the **Fruit** entity using Spring Boot, Spring Data JPA, and MySQL database.
 
 The `Fruit` entity has the following properties:
 
